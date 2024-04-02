@@ -33,7 +33,7 @@ jobs:
         with:
           inlineScript: |
               az storage blob delete-batch --account-name lwarchivestorage --auth-mode key -s '$web' --pattern "royalhackaway/*"
-              az storage blob upload-batch --account-name lwarchivestorage --auth-mode key -d '$web' --destination-path royalhackaway -s .
+              az storage blob upload-batch --account-name lwarchivestorage --auth-mode key -d '$web' --destination-path royalhackaway -s public
 
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
