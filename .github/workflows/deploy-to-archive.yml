@@ -39,7 +39,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-              az cdn endpoint purge --content-paths  "royalhackaway/*" --profile-name "lwarchivecdn" --name "lwarchive" --resource-group "portflio"
+              az cdn endpoint purge --content-paths  "/royalhackaway/*" --profile-name "lwarchivecdn" --name "lwarchive" --resource-group "portflio"
     
       - name: Uninstall Yarn
         run: |
