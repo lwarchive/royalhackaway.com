@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /royalhackaway
 
-Sitemap: https://royalhackaway.com/sitemap.xml
+Sitemap: https://archive.daemondemon.co.uk/royalhackaway/sitemap.xml

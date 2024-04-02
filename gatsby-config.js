@@ -7,8 +7,8 @@ module.exports = {
     twitter: "RHULCompSoc",
     github: "rhul-compsoc",
     email: "hello@royalhackaway.com",
-    siteUrl: "https://royalhackaway.com",
-    githubUrl: "https://github.com/rhul-compsoc/royalhackaway.com",
+    siteUrl: "https://archive.daemondemon.co.uk",
+    githubUrl: "https://github.com/lwarchive/royalhackaway.com",
   },
   mapping: {
     "Mdx.frontmatter.people.person": "Mdx.fields.id",
@@ -17,6 +17,7 @@ module.exports = {
     "Mdx.frontmatter.parent": "Mdx.fields.id",
     "Mdx.frontmatter.children": "Mdx.fields.slug",
   },
+  pathPrefix: "/royalhackaway",
   plugins: [
     "gatsby-plugin-meta-redirect",
     "gatsby-plugin-react-helmet",
