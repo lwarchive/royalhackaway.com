@@ -19,7 +19,9 @@ jobs:
         run: npm install -g yarn
 
       - name: Build website
-        run: yarn build --prefix-paths
+        run: |
+             yarn
+             yarn build --prefix-paths
       
       - name: Login to Azure CLI
         uses: azure/login@v1
